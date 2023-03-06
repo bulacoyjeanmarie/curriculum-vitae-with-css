@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 110%;
+    background-color:#DE7E5D;
+    display: flex;
+    align-self:center;
+    position: relative;
+}
+.header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%; 
+    position: relative;
+    top: 10px;
+ left: 100px;
+cursor: pointer;
+transition : -5s;
+user-select: none;
+filter: blur(100%);
+}
+.header img:hover{
+    filter: blur(0%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px rgb(130, 130, 243);
+}
+.header-text{
+    color: black;
+    width: 50%;
+    margin-left:100px;
+    padding-top: 60px;
+}
+.header-text h1{
+    font-size: 40px;
+    padding:5px;
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-text p{
+    font-size: 18px;
+    font-style: italic;
+    color: black;
+    padding: 5px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-area{
+width: 30%; 
+background-color:#FFE5B4;
+text-align:center;   
+
+}
+.right-area .contact{
+ margin-top: 100px;
+ padding: 30px;
+}
+.contact h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 2px;
+
+}.contact h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.contact h3{
+    font-size: 20px;
+    margin : 10px ;
+    font-style: italic;
+    text-align: center;
+    
+}
+.contact h5{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.left-area{
+    width: 70%; 
+    text-align:center;  
+
+ }
+ .left-area .about{
+    margin-top: 10px;
+    padding: 30px;
+    background-color:white;
+ }
+.bars{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px 2px;
+    padding: 0 30px;
+}
+.about .bars p{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 10%;
+}
+.about .bars pre{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.left-area .Educ{
+    margin-top: -29px;
+    margin-bottom: -30px;
+     padding: 0 5px;
+        background-color:white;
+
+     }
+.left-area .Educ h2{
+margin-top: -29px;
+ padding: 0 -10px;
+    background-color: rgb(238, 173, 136);
+ }
+.left-area .Educ .bars p{
+font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 5%;
+}
+.left-area .Educ .bars pre{
+    font-size: 15px;
+        font-weight: normal;
+        text-align: left;
+        margin-left: 20%
+}
+
+.left-area .Skills h2{
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px;
+}
+.left-area .educ .bars h2{
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px;
+    background-color: rgb(241, 166, 104);
+}
